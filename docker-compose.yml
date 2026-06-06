@@ -1,0 +1,18 @@
+services:
+
+  db:
+    image: postgres:17
+    container_name: employee-db
+    environment:
+      POSTGRES_DB: employee_db
+      POSTGRES_USER: employee_user
+      POSTGRES_PASSWORD: StrongPassword123
+ 
+
+  app:
+    build: .
+    container_name: employee-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db

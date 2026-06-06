@@ -124,7 +124,7 @@ Ergebnis:
 
 ### Öffentliche API
 
-![API Test](screenshots/Phase12_AWS-API-Öffentlich-Erreichbar.png)
+![API Test](screenshots/Phase12_Finaler-API-Test.png)
 
 ### GitHub Repository
 
